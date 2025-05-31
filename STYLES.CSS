@@ -1,0 +1,76 @@
+*{
+    padding: 1em;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #050101;
+  background-image: url(Spot\ Light\ Background\ _\ Free\ Vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;              
+  background-position: center;          
+  background-attachment: scroll; 
+}
+header, footer {
+  background-color: #004080;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 2em;
+}
+section {
+  margin-bottom: 2em;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form input[type="submit"] {
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: #003060;
+}
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 12px 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  
+  color: black;
+}
+
+    
+
+tr:hover {
+  background-color: #f1f1f1;
+}

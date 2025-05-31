@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hosanna Secondary School</title>
+        <link rel="stylesheet" href="STYLES.CSS">
+    </head>
+    <body>
+        <header>
+            <h1>Admissions</h1>
+             <nav>
+            <a href="INDEX.HTML">HOME</a>
+            <a href="ACADEMICS.HTML">ACADEMICS</a>
+            <a href="ADMISSIONS.HTML">ADMISSIONS</a>
+            <a href="CONTACT.HTML">CONTACT</a>
+        </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Admissions Guidelines</h2>
+                <p>We welcome students from all backgrounds and admission is based on merit along with interviews.</p>
+            </section>
+            <section>
+      <h2>Fees Structure</h2>
+      <p>Fees vary by class and boarding/day options. Contact the office for detailed breakdown.</p>
+    </section>
+    <section>
+        <h2>Application form </h2>
+        <p> Below is the application form.</p>
+      <form>
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+          <option value="">--Select--</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Parent/Guardian Details</legend>
+        <label for="parentName">Parent/Guardian Name:</label><br>
+        <input type="text" id="parentName" name="parentName" required><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email"><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Academic Information</legend>
+        <label for="previousSchool">Previous School:</label><br>
+        <input type="text" id="previousSchool" name="previousSchool" required><br>
+
+        <label for="class">Class Applying For:</label><br>
+        <select id="class" name="class" required>
+          <option value="">--Select--</option>
+          <option value="Senior 1">Senior 1</option>
+          <option value="Senior 2">Senior 2</option>
+          <option value="Senior 3">Senior 3</option>
+          <option value="Senior 4">Senior 4</option>
+          <option value="Senior 5">Senior 5</option>
+          <option value="Senior 6">Senior 6</option>
+        </select><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Information</legend>
+        <label for="boarding">Preferred Option:</label><br>
+        <input type="radio" id="boarding" name="option" value="Boarding" required> Boarding<br>
+        <input type="radio" id="day" name="option" value="Day" required> Day<br>
+
+        <label for="notes">Special Needs or Comments:</label><br>
+        <textarea id="notes" name="notes" rows="4"></textarea><br>
+      </fieldset>
+
+      <input type="submit" value="Submit Application">
+    </form>
+    </section>
+    <section>
+      <h2>Enrollment Procedures</h2>
+      <p>Submit completed forms, provide previous academic records, and attend an orientation.</p>
+    </section>
+  </main>
+  <footer>
+    <p> 2025 Hosanna Secondary School</p>
+  </footer>
+        </main>
+    </body>
+</html>
